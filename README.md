@@ -1,4 +1,4 @@
-# Secure Team-Based Collaborative Workflow Management with Encrypted Data Transmission and Multi-Client TCP Communication
+# Secure Team-Based Collaborative Workflow Management with Encrypted Data Transmission and Multi-Client TCP Communication 
 
 ## Overview
 
@@ -12,7 +12,7 @@
 - **Task Management**: Users can create tasks, view tasks, update task status, and admins can delete tasks. Tasks are assigned to specific users and have a due date, ensuring that workflow management is organized and transparent.
 - **MySQL Database**: All user and task data is securely stored in a MySQL database, with the server interacting with the database to verify login credentials, store user and task data, and perform CRUD operations.
 
-## Technical Stack
+## Tech Stack
 
 - **C**: Backend server written in C that handles communication, task management, and database operations.
 - **Python**: Frontend GUI client built with the `customtkinter` library for an intuitive and user-friendly interface.
