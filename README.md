@@ -45,7 +45,7 @@ The architecture of the system consists of three main components:
 - **Admin Dashboard**: Admins can view all users, create new users, delete users, create tasks for users, and view all tasks assigned to users.
 - **User Dashboard**: Regular users can view their tasks and update their status, e.g., mark tasks as complete. Users can only see tasks assigned to them.
 - **Task Creation & Management**: Tasks are assigned with a title, description, and due date. Admins can delete tasks if necessary. 
-- **Secure Data Handling**: All sensitive data transmitted between the client and server is encrypted using SSL.
+- **Secure Data Handling**: All sensitive data transmitted between the client and server is encrypted using SSL.In this project currently only server side SSL is done, hence only server presents the certificate to the client.
 
 ## Prerequisites
 
@@ -92,7 +92,7 @@ Since this project uses SSL for encrypted communication, you will need to genera
 
 3. **Place the Certificates in the certs Folder**:
 
-    After generating the certificate files (`server.crt` and `server.key`), place them in the dcerts folder
+    After generating the certificate files (`server.crt` and `server.key`), place them in the certs folder
 
 
 
