@@ -1,6 +1,6 @@
 # Secure Team-Based Collaborative Workflow Management with Encrypted Data Transmission and Multi-Client TCP Communication 
 
-## Overview
+ ## Overview
 
 **SecureCollab** is a team-based collaborative workflow management system designed to facilitate secure communication, task management, and collaboration in an organization. The system leverages encrypted data transmission over SSL, multi-client TCP communication, and role-based access control to ensure that tasks are efficiently assigned, tracked, and completed. The solution consists of a multi-threaded C backend server running on an Ubuntu-based WSL system and a Python-based GUI client running on a Windows machine, offering a seamless experience for secure team collaboration.
 
